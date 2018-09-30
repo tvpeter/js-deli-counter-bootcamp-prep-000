@@ -38,7 +38,7 @@ function currentLine (katzDeliLine)
     {
       stmt += `${i+1}. ${katzDeliLine[i]}`;
     }else{
-    stmt += `${i+1}. ${katzDeliLine[i]},`;
+    stmt += `${i+1}. ${katzDeliLine[i]}, `;
   }
   }
   
