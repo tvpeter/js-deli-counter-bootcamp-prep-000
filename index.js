@@ -34,7 +34,7 @@ function currentLine (katzDeliLine)
   var stmt = "The line is currently: ";
   for(var i=0; i < katzDeliLine.length; i++)
   {
-    stmt += `, ${i+1}. ${katzDeliLine[i]} `;
+    stmt += `, ${i+1}. ${katzDeliLine[i]}`;
   }
   
   return stmt;
