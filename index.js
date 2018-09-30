@@ -31,10 +31,10 @@ function currentLine (katzDeliLine)
   {
     return "The line is currently empty.";
   }
-  var stmt = "The line is currently:";
+  var stmt = "The line is currently: ";
   for(var i=0; i < katzDeliLine.length; i++)
   {
-    stmt += `${i+1}. ${katzDeliLine[i]}`;
+    stmt += `${i+1}. ${katzDeliLine[i]},`;
   }
   
   return stmt;
